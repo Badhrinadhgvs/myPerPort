@@ -20,5 +20,3 @@ def home(request):
 
 def projects(request):
   return render(request,'projects.html')
-def ex(request):
-  return render(request,'skills.html')
