@@ -1,0 +1,127 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
+<link rel="shortcut icon" href="{% static 'images/Screenshot 2024-03-26 193121.png' %}" type="image/x-icon">
+<style>
+  body{
+    background-color: black;
+    color: white;
+  }
+  #box{
+    border-right: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-bottom: 1.5px solid rgb(255, 255, 255);
+
+    filter: drop-shadow(1px 1px 20px rgb(0, 17, 255));
+  }
+  #pr{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    color: transparent; /* Make the text color transparent */
+    -webkit-background-clip: text;
+  }
+
+  .multicolortext {
+            background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+            -webkit-background-clip: text; /* Clip the background to the text */
+            color: transparent; /* Make the text color transparent */
+        }
+</style>
+</head>
+<body>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font text-center text-gray-900 mb-20" id="pr"><p id="pr"><span id="id" >PROJECTS</span></p>
+      
+      </h1>
+      <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+        <div class="p-4 md:w-1/3 flex" id="box">
+
+          <div class="flex-grow pl-6">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-2 multicolortext">Ecommerce website</h2>
+            <p class="leading-relaxed text-base ">An ecommerce website in which it contains authentication,user maintanance and Payment integration..</p>
+            <a class="mt-3 text-indigo-500 inline-flex items-center" href="/">View
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3 flex" id="box">
+          
+          <div class="flex-grow pl-6">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-2 multicolortext">Programmingblocks.io</h2>
+            <p class="leading-relaxed text-base">It is likely a website in which only blogs related to programming are present.It is more helpful for students to learn coding by practicing code.I provided each code in the form of Snippets so Students can easily copy the code and learn.</p>
+            <a class="mt-3 text-indigo-500 inline-flex items-center" href="https://github.com/Badhrinadhgvs/Programmingblog">View
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3 flex" id="box">
+          
+          <div class="flex-grow pl-6">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-2 multicolortext">NadhBlogs Central</h2>
+            <p class="leading-relaxed text-base">It is very hard for people who want to know much about Latest
+              technologies, crypto and ventures and if there is a website also but they didn’t get the feature of reading blogs written by top persons in those respective field.Web Scraping is used to collect various articles on that topic.</p>
+            <a class="mt-3 text-indigo-500 inline-flex items-center" href="https://github.com/Badhrinadhgvs/nadhblogs">View
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+
+      <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+        <div class="p-4 md:w-1/3 flex" id="box">
+          
+          <div class="flex-grow pl-6">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-2 multicolortext">Bank management system</h2>
+            <p class="leading-relaxed text-base">A simple yet useful Bank management system in Python.</p>
+            <a class="mt-3 text-indigo-500 inline-flex items-center" href="https://github.com/Badhrinadhgvs/Supermarketbillgeneration-system/blob/">View
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3 flex" id="box">
+          
+          <div class="flex-grow pl-6">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-2 multicolortext">Sales insights on Atliq hardware</h2>
+            <p class="leading-relaxed text-base">Perform Exploratory data analysis.Pulled insights which are useful for to build an ML model.</p>
+            <a class="mt-3 text-indigo-500 inline-flex items-center" href="https://github.com/Badhrinadhgvs/Sales-analysis">View
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3 flex" id="box">
+          
+          <div class="flex-grow pl-6">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-2 multicolortext">Supermarket bill generation system
+            </h2>
+            <p class="leading-relaxed text-base">A Supermarket bill generation system which prints the bill along with the billing time. Datetime module is used to print the billing date and time.</p>
+            <a class="mt-3 text-indigo-500 inline-flex items-center" href="https://github.com/Badhrinadhgvs/Supermarketbillgeneration-system/blob/main/mini_project.py">View
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
